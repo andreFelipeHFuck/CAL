@@ -4,6 +4,7 @@ import random
 from datetime import datetime
 
 num_cidades = 3
+taxa_mutacao = 0.3
 
 list_nome = np.array(['Joinville', 'Florianopolis', 'Tubarao'])
 
@@ -66,6 +67,61 @@ def selecao_progenitores(populacao_set, list_fitness):
       return np.array([progenitor_list_a,progenitor_list_b])
 
 
-list_progenistores = selecao_progenitores(populacao_set, list_fitness)
-print(list_progenistores[0][2])
+list_progenitores = selecao_progenitores(populacao_set, list_fitness)
+print(list_progenitores[0][2])
 
+def gera_filho(progenitorA, progenitorB):
+    filho = progenitorA[0:1]
+
+    for cidade in progenitorB:
+        if not cidade in filho:
+            filho = np.concatenate((filho, [cidade]))
+
+    return filho
+
+def gera_populacao(list_progenitores):
+    nova_populacao_set = []
+    for i in range(list_progenitores.shape[1]):
+        progenitorA, progenitorB = list_progenitores[0][i], list_progenitores[1][i]
+        filho = gera_filho(progenitorA, progenitorB)
+        nova_populacao_set.append(filho)
+
+    return nova_populacao_set
+
+nova_populacao_set = gera_populacao(list_progenitores)
+print(nova_populacao_set[0])
+
+def mutacao_filho(filho):
+    for q in range(int(num_cidades * taxa_mutacao)):
+        a = np.random.randint(0, num_cidades)
+        b = np.random.randint(0, num_cidades)
+
+        filho[a], filho[b] = filho[b], filho[a]
+    
+    return filho
+
+def mutacao_populacao(nova_populacao_set):
+    populacao_mutada = []
+    for filho in nova_populacao_set:
+        populacao_mutada.append(mutacao_filho(filho))
+    return populacao_mutada
+
+populacao_mutada  = mutacao_populacao(nova_populacao_set)
+print(populacao_mutada[0])
+
+melhor_solucao = [-1, np.inf, np.array([])]
+
+for i in range(10):
+    print(i, list_fitness.min(), list_fitness.mean())
+
+    if list_fitness.min() < melhor_solucao[1]:
+        melhor_solucao[0] = i
+        melhor_solucao[1] = list_fitness.min()
+        melhor_solucao[2] = np.array(populacao_mutada)[list_fitness.min() == list_fitness]
+
+    list_progenitores = selecao_progenitores(populacao_set, list_fitness)
+    nova_populacao_set = gera_populacao(list_progenitores)
+
+    populacao_mutada = mutacao_populacao(nova_populacao_set)
+
+print(melhor_solucao)
