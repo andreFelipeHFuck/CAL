@@ -1,0 +1,378 @@
+100 0.3 9294 1620.0 "[['Criciúma' 'Tubarão' 'Blumenau' 'Itajaí' 'Joinville'
+  'Balneário Camboriú' 'São Bento do Sul' 'Jaraguá do Sul' 'Brusque'
+  'São José' 'Florianópolis' 'Santa Catarina' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.3 5533 1506.0 "[['Itajaí' 'Blumenau' 'Jaraguá do Sul' 'São Bento do Sul' 'Joinville'
+  'Balneário Camboriú' 'Brusque' 'Florianópolis' 'Tubarão' 'Criciúma'
+  'São José' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.3 2761 1683.0 "[['São José' 'Blumenau' 'Joinville' 'Itajaí' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Brusque' 'Florianópolis' 'Balneário Camboriú'
+  'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.3 1727 1622.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Joinville' 'Brusque'
+  'Balneário Camboriú' 'Florianópolis' 'Santa Catarina' 'Lages'
+  'Criciúma' 'Tubarão' 'São José' 'Itajaí' 'Blumenau' 'Jaraguá do Sul']]"
+100 0.3 2284 1611.0 "[['Balneário Camboriú' 'Joinville' 'Jaraguá do Sul' 'São Bento do Sul'
+  'Caçador' 'Chapecó' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão'
+  'Florianópolis' 'São José' 'Brusque' 'Blumenau' 'Itajaí']]"
+100 0.3 6200 1622.0 "[['São José' 'Florianópolis' 'Brusque' 'Blumenau' 'Joinville'
+  'Balneário Camboriú' 'Jaraguá do Sul' 'São Bento do Sul' 'Itajaí'
+  'Criciúma' 'Tubarão' 'Santa Catarina' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.3 5658 1512.0 "[['Blumenau' 'Jaraguá do Sul' 'São Bento do Sul' 'Itajaí' 'Brusque'
+  'Balneário Camboriú' 'Joinville' 'São José' 'Florianópolis' 'Criciúma'
+  'Tubarão' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.3 3586 1720.0 "[['Balneário Camboriú' 'Blumenau' 'Florianópolis' 'São José' 'Tubarão'
+  'Criciúma' 'Santa Catarina' 'Lages' 'Itajaí' 'Brusque'
+  'São Bento do Sul' 'Joinville' 'Jaraguá do Sul' 'Caçador' 'Chapecó']]"
+100 0.3 793 1706.0 "[['Chapecó' 'Caçador' 'Florianópolis' 'Blumenau' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Joinville' 'Balneário Camboriú' 'Itajaí' 'Brusque'
+  'São José' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão']]"
+100 0.3 4446 1658.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Joinville' 'Brusque' 'Itajaí'
+  'Balneário Camboriú' 'Blumenau' 'Jaraguá do Sul' 'Santa Catarina'
+  'Lages' 'Tubarão' 'São José' 'Florianópolis' 'Criciúma']]"
+100 0.5 3539 1594.0 "[['Chapecó' 'Caçador' 'Blumenau' 'Brusque' 'Itajaí' 'São José'
+  'Balneário Camboriú' 'Joinville' 'São Bento do Sul' 'Jaraguá do Sul'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages']]"
+100 0.5 5167 1726.0 "[['Tubarão' 'Criciúma' 'São José' 'Lages' 'Santa Catarina'
+  'Florianópolis' 'Brusque' 'Joinville' 'Jaraguá do Sul' 'Blumenau'
+  'Balneário Camboriú' 'Itajaí' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.5 7538 1503.0 "[['Joinville' 'Jaraguá do Sul' 'Brusque' 'Itajaí' 'Balneário Camboriú'
+  'Florianópolis' 'São José' 'Tubarão' 'Criciúma' 'Lages'
+  'Santa Catarina' 'Blumenau' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.5 8506 1698.0 "[['Criciúma' 'Tubarão' 'Santa Catarina' 'Lages' 'São José' 'Brusque'
+  'Balneário Camboriú' 'Itajaí' 'Florianópolis' 'Jaraguá do Sul'
+  'Joinville' 'São Bento do Sul' 'Blumenau' 'Caçador' 'Chapecó']]"
+100 0.5 8013 1491.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão'
+  'São José' 'Brusque' 'Florianópolis' 'Balneário Camboriú' 'Blumenau'
+  'São Bento do Sul' 'Joinville' 'Jaraguá do Sul' 'Itajaí']]"
+100 0.5 2412 1710.0 "[['Chapecó' 'Tubarão' 'Criciúma' 'Florianópolis' 'São José'
+  'Balneário Camboriú' 'Itajaí' 'Brusque' 'Jaraguá do Sul' 'Blumenau'
+  'Joinville' 'São Bento do Sul' 'Caçador' 'Lages' 'Santa Catarina']]"
+100 0.5 1691 1670.0 "[['Florianópolis' 'São José' 'Tubarão' 'Criciúma' 'Lages'
+  'Santa Catarina' 'Chapecó' 'Caçador' 'São Bento do Sul'
+  'Balneário Camboriú' 'Blumenau' 'Jaraguá do Sul' 'Joinville' 'Itajaí'
+  'Brusque']]"
+100 0.5 8770 1642.0 "[['Criciúma' 'Tubarão' 'Itajaí' 'Brusque' 'Blumenau' 'Joinville'
+  'Jaraguá do Sul' 'Florianópolis' 'São José' 'Balneário Camboriú'
+  'São Bento do Sul' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.5 4629 1576.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Tubarão' 'São José'
+  'Florianópolis' 'Blumenau' 'Jaraguá do Sul' 'Joinville'
+  'São Bento do Sul' 'Balneário Camboriú' 'Itajaí' 'Brusque' 'Criciúma']]"
+100 0.5 4226 1698.0 "[['Joinville' 'Jaraguá do Sul' 'São Bento do Sul' 'Criciúma' 'Tubarão'
+  'Florianópolis' 'Brusque' 'São José' 'Balneário Camboriú' 'Itajaí'
+  'Blumenau' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.7 3289 1668.0 "[['Blumenau' 'Joinville' 'Brusque' 'Itajaí' 'Florianópolis' 'São José'
+  'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages' 'Balneário Camboriú'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.7 5935 1569.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão'
+  'Florianópolis' 'Blumenau' 'Jaraguá do Sul' 'Joinville' 'Brusque'
+  'São Bento do Sul' 'Itajaí' 'Balneário Camboriú' 'São José']]"
+100 0.7 181 1653.0 "[['Joinville' 'São Bento do Sul' 'Brusque' 'Blumenau' 'Itajaí'
+  'Balneário Camboriú' 'Florianópolis' 'Tubarão' 'Criciúma' 'São José'
+  'Jaraguá do Sul' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.7 9648 1702.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão'
+  'Jaraguá do Sul' 'Florianópolis' 'São José' 'Brusque' 'Itajaí'
+  'São Bento do Sul' 'Joinville' 'Blumenau' 'Balneário Camboriú']]"
+100 0.7 9128 1601.0 "[['Jaraguá do Sul' 'São Bento do Sul' 'Brusque' 'Blumenau'
+  'Balneário Camboriú' 'Itajaí' 'Joinville' 'Tubarão' 'Criciúma'
+  'São José' 'Florianópolis' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.7 1938 1600.0 "[['Balneário Camboriú' 'Itajaí' 'Santa Catarina' 'Lages' 'Criciúma'
+  'Tubarão' 'São José' 'Florianópolis' 'Brusque' 'Blumenau'
+  'São Bento do Sul' 'Joinville' 'Jaraguá do Sul' 'Caçador' 'Chapecó']]"
+100 0.7 4227 1458.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão'
+  'Florianópolis' 'São José' 'Blumenau' 'Jaraguá do Sul'
+  'São Bento do Sul' 'Itajaí' 'Joinville' 'Balneário Camboriú' 'Brusque']]"
+100 0.7 5440 1371.0 "[['São Bento do Sul' 'Jaraguá do Sul' 'Joinville' 'Blumenau'
+  'Balneário Camboriú' 'Itajaí' 'São José' 'Brusque' 'Florianópolis'
+  'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.7 7754 1715.0 "[['São José' 'Itajaí' 'Blumenau' 'Florianópolis' 'Balneário Camboriú'
+  'Brusque' 'Joinville' 'Jaraguá do Sul' 'São Bento do Sul' 'Caçador'
+  'Chapecó' 'Lages' 'Santa Catarina' 'Tubarão' 'Criciúma']]"
+100 0.7 6580 1435.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Joinville' 'Jaraguá do Sul'
+  'Blumenau' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão'
+  'Florianópolis' 'São José' 'Balneário Camboriú' 'Itajaí' 'Brusque']]"
+0.3 4 1.626
+0.5 5 1.6308
+0.7 0 0.1435
+100 0.3 68 1980.0 "[['São José' 'Itajaí' 'Jaraguá do Sul' 'São Bento do Sul' 'Florianópolis'
+  'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages' 'Chapecó' 'Caçador'
+  'Blumenau' 'Joinville' 'Balneário Camboriú' 'Brusque']]"
+100 0.3 49 1846.0 "[['Brusque' 'Blumenau' 'São Bento do Sul' 'Jaraguá do Sul' 'São José'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Joinville' 'Itajaí' 'Balneário Camboriú' 'Caçador' 'Chapecó']]"
+100 0.3 12 1834.0 "[['Itajaí' 'Jaraguá do Sul' 'Blumenau' 'Balneário Camboriú' 'Joinville'
+  'São Bento do Sul' 'Brusque' 'São José' 'Florianópolis' 'Criciúma'
+  'Tubarão' 'Caçador' 'Lages' 'Santa Catarina' 'Chapecó']]"
+100 0.3 10 1753.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Blumenau' 'Brusque'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Balneário Camboriú' 'Itajaí' 'Jaraguá do Sul' 'Joinville' 'São José']]"
+100 0.3 23 2005.0 "[['Balneário Camboriú' 'Brusque' 'São Bento do Sul' 'Itajaí' 'São José'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Jaraguá do Sul' 'Blumenau' 'Joinville' 'Chapecó' 'Caçador']]"
+100 0.3 63 1702.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Blumenau' 'São José'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Balneário Camboriú' 'Itajaí' 'Jaraguá do Sul' 'Joinville' 'Brusque']]"
+100 0.3 13 1934.0 "[['Caçador' 'Lages' 'Santa Catarina' 'Balneário Camboriú' 'Tubarão'
+  'Criciúma' 'Brusque' 'Blumenau' 'São José' 'Florianópolis' 'Itajaí'
+  'Joinville' 'Jaraguá do Sul' 'São Bento do Sul' 'Chapecó']]"
+100 0.3 26 1737.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Blumenau' 'São José'
+  'Florianópolis' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Balneário Camboriú' 'Jaraguá do Sul' 'Joinville' 'Brusque' 'Itajaí']]"
+100 0.3 87 2063.0 "[['Blumenau' 'São Bento do Sul' 'Joinville' 'Jaraguá do Sul'
+  'Balneário Camboriú' 'Itajaí' 'Brusque' 'Caçador' 'Chapecó' 'Criciúma'
+  'Santa Catarina' 'Lages' 'São José' 'Florianópolis' 'Tubarão']]"
+100 0.3 20 1973.0 "[['Chapecó' 'Caçador' 'Joinville' 'Blumenau' 'São José' 'Tubarão'
+  'Criciúma' 'Santa Catarina' 'Lages' 'Balneário Camboriú'
+  'Florianópolis' 'Jaraguá do Sul' 'São Bento do Sul' 'Itajaí' 'Brusque']]"
+100 0.5 77 1736.0 "[['Lages' 'Santa Catarina' 'Jaraguá do Sul' 'Blumenau' 'Brusque'
+  'São Bento do Sul' 'Joinville' 'Itajaí' 'Balneário Camboriú'
+  'Florianópolis' 'São José' 'Tubarão' 'Criciúma' 'Chapecó' 'Caçador']]"
+100 0.5 79 1932.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Jaraguá do Sul'
+  'São Bento do Sul' 'Blumenau' 'Lages' 'Tubarão' 'Criciúma' 'São José'
+  'Brusque' 'Florianópolis' 'Itajaí' 'Balneário Camboriú' 'Joinville']]"
+100 0.5 69 2046.0 "[['Jaraguá do Sul' 'São Bento do Sul' 'Chapecó' 'Santa Catarina'
+  'Caçador' 'Lages' 'Blumenau' 'Brusque' 'Balneário Camboriú' 'Itajaí'
+  'Joinville' 'São José' 'Florianópolis' 'Criciúma' 'Tubarão']]"
+100 0.5 60 1875.0 "[['São Bento do Sul' 'Lages' 'Santa Catarina' 'Chapecó' 'Caçador'
+  'Jaraguá do Sul' 'Itajaí' 'Brusque' 'Balneário Camboriú' 'Blumenau'
+  'Joinville' 'São José' 'Florianópolis' 'Tubarão' 'Criciúma']]"
+100 0.5 21 1987.0 "[['Lages' 'Chapecó' 'Caçador' 'Blumenau' 'Balneário Camboriú' 'Brusque'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Joinville' 'Itajaí' 'Tubarão'
+  'Criciúma' 'São José' 'Florianópolis' 'Santa Catarina']]"
+100 0.5 38 1834.0 "[['Joinville' 'Itajaí' 'Balneário Camboriú' 'Blumenau' 'Lages'
+  'Santa Catarina' 'Chapecó' 'Caçador' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Brusque' 'Criciúma' 'Tubarão' 'São José'
+  'Florianópolis']]"
+100 0.5 47 2082.0 "[['Criciúma' 'São Bento do Sul' 'Jaraguá do Sul' 'Itajaí' 'Joinville'
+  'Balneário Camboriú' 'Tubarão' 'Lages' 'Santa Catarina' 'Florianópolis'
+  'São José' 'Brusque' 'Blumenau' 'Caçador' 'Chapecó']]"
+100 0.5 61 2002.0 "[['Santa Catarina' 'Florianópolis' 'Balneário Camboriú' 'Jaraguá do Sul'
+  'Brusque' 'Tubarão' 'Criciúma' 'Lages' 'São José' 'Itajaí' 'Blumenau'
+  'Joinville' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.5 70 1746.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Jaraguá do Sul' 'Joinville'
+  'Blumenau' 'Tubarão' 'Criciúma' 'Florianópolis' 'Balneário Camboriú'
+  'Itajaí' 'São José' 'Brusque' 'Santa Catarina' 'Lages']]"
+100 0.5 49 1697.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Blumenau'
+  'Balneário Camboriú' 'Itajaí' 'Jaraguá do Sul' 'São Bento do Sul'
+  'Criciúma' 'Tubarão' 'São José' 'Florianópolis' 'Brusque' 'Joinville']]"
+100 0.7 38 1971.0 "[['São Bento do Sul' 'Caçador' 'Chapecó' 'Santa Catarina' 'Lages'
+  'Balneário Camboriú' 'São José' 'Criciúma' 'Tubarão' 'Florianópolis'
+  'Itajaí' 'Joinville' 'Blumenau' 'Brusque' 'Jaraguá do Sul']]"
+100 0.7 24 1999.0 "[['Itajaí' 'Blumenau' 'Caçador' 'Chapecó' 'Santa Catarina' 'Lages'
+  'Tubarão' 'Criciúma' 'Brusque' 'Florianópolis' 'São José'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Joinville' 'Balneário Camboriú']]"
+100 0.7 57 2094.0 "[['Blumenau' 'Lages' 'Chapecó' 'Caçador' 'São Bento do Sul' 'Brusque'
+  'Balneário Camboriú' 'Itajaí' 'Florianópolis' 'São José' 'Joinville'
+  'Jaraguá do Sul' 'Santa Catarina' 'Criciúma' 'Tubarão']]"
+100 0.7 39 2050.0 "[['Florianópolis' 'Santa Catarina' 'Blumenau' 'Brusque'
+  'Balneário Camboriú' 'Itajaí' 'Joinville' 'Jaraguá do Sul'
+  'São Bento do Sul' 'Chapecó' 'Caçador' 'Lages' 'São José' 'Criciúma'
+  'Tubarão']]"
+100 0.7 89 1986.0 "[['Tubarão' 'São José' 'Florianópolis' 'Balneário Camboriú' 'Joinville'
+  'Jaraguá do Sul' 'Blumenau' 'Itajaí' 'São Bento do Sul' 'Brusque'
+  'Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Criciúma']]"
+100 0.7 71 2049.0 "[['Florianópolis' 'São José' 'Joinville' 'Chapecó' 'Caçador' 'Lages'
+  'Santa Catarina' 'Criciúma' 'Tubarão' 'Balneário Camboriú' 'Brusque'
+  'São Bento do Sul' 'Blumenau' 'Jaraguá do Sul' 'Itajaí']]"
+100 0.7 43 1935.0 "[['Lages' 'Santa Catarina' 'Caçador' 'Chapecó' 'Blumenau'
+  'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Balneário Camboriú'
+  'Brusque' 'São José' 'Tubarão' 'Criciúma' 'Itajaí' 'Florianópolis']]"
+100 0.7 86 2062.0 "[['Blumenau' 'São José' 'Florianópolis' 'Lages' 'Santa Catarina'
+  'Chapecó' 'Caçador' 'Joinville' 'São Bento do Sul' 'Jaraguá do Sul'
+  'Brusque' 'Itajaí' 'Tubarão' 'Criciúma' 'Balneário Camboriú']]"
+100 0.7 12 2112.0 "[['Criciúma' 'Tubarão' 'São José' 'Blumenau' 'Jaraguá do Sul'
+  'Balneário Camboriú' 'Itajaí' 'Joinville' 'São Bento do Sul' 'Chapecó'
+  'Caçador' 'Santa Catarina' 'Brusque' 'Florianópolis' 'Lages']]"
+100 0.7 81 1727.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Brusque'
+  'São Bento do Sul' 'Joinville' 'Itajaí' 'Balneário Camboriú' 'Tubarão'
+  'Criciúma' 'Florianópolis' 'São José' 'Jaraguá do Sul' 'Blumenau']]"
+0.3 37 1.8827
+0.5 57 1.8937
+0.7 8 0.1727
+100 0.3 28 2062.0 "[['Chapecó' 'Caçador' 'Lages' 'Criciúma' 'Santa Catarina' 'Blumenau'
+  'Joinville' 'São Bento do Sul' 'Balneário Camboriú' 'Jaraguá do Sul'
+  'Tubarão' 'Florianópolis' 'São José' 'Brusque' 'Itajaí']]"
+100 0.3 62 1946.0 "[['Blumenau' 'Joinville' 'São Bento do Sul' 'Chapecó' 'Caçador'
+  'Santa Catarina' 'Lages' 'Tubarão' 'Balneário Camboriú' 'Itajaí'
+  'Jaraguá do Sul' 'Brusque' 'Florianópolis' 'São José' 'Criciúma']]"
+100 0.3 1 2016.0 "[['São Bento do Sul' 'Balneário Camboriú' 'Florianópolis' 'Itajaí'
+  'Caçador' 'Chapecó' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão'
+  'São José' 'Brusque' 'Jaraguá do Sul' 'Joinville' 'Blumenau']]"
+100 0.3 2 2011.0 "[['Caçador' 'Lages' 'Santa Catarina' 'Florianópolis' 'Tubarão' 'Criciúma'
+  'São José' 'Joinville' 'Jaraguá do Sul' 'Itajaí' 'São Bento do Sul'
+  'Brusque' 'Balneário Camboriú' 'Blumenau' 'Chapecó']]"
+100 0.3 81 1980.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Brusque' 'Balneário Camboriú'
+  'Blumenau' 'São José' 'Joinville' 'Itajaí' 'Jaraguá do Sul'
+  'Florianópolis' 'Tubarão' 'Santa Catarina' 'Lages' 'Criciúma']]"
+100 0.3 75 1558.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão'
+  'Blumenau' 'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Brusque'
+  'Florianópolis' 'Itajaí' 'Balneário Camboriú' 'São José']]"
+100 0.3 40 1842.0 "[['São Bento do Sul' 'Blumenau' 'Joinville' 'Jaraguá do Sul' 'Itajaí'
+  'Florianópolis' 'Brusque' 'Balneário Camboriú' 'São José' 'Criciúma'
+  'Tubarão' 'Caçador' 'Lages' 'Santa Catarina' 'Chapecó']]"
+100 0.3 73 2023.0 "[['Joinville' 'Blumenau' 'São José' 'Balneário Camboriú' 'Brusque'
+  'Florianópolis' 'Itajaí' 'Tubarão' 'Criciúma' 'Lages' 'Santa Catarina'
+  'Caçador' 'São Bento do Sul' 'Jaraguá do Sul' 'Chapecó']]"
+100 0.3 49 2006.0 "[['Caçador' 'Lages' 'Santa Catarina' 'Chapecó' 'São Bento do Sul'
+  'Blumenau' 'Brusque' 'Itajaí' 'Jaraguá do Sul' 'Florianópolis'
+  'Tubarão' 'Criciúma' 'São José' 'Balneário Camboriú' 'Joinville']]"
+100 0.3 11 2056.0 "[['Florianópolis' 'São José' 'Brusque' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Caçador' 'Chapecó' 'Blumenau' 'Joinville'
+  'Balneário Camboriú' 'Itajaí' 'Lages' 'Santa Catarina' 'Criciúma'
+  'Tubarão']]"
+100 0.5 54 2051.0 "[['Joinville' 'São Bento do Sul' 'Jaraguá do Sul' 'Lages'
+  'Santa Catarina' 'Blumenau' 'Tubarão' 'Criciúma' 'Balneário Camboriú'
+  'São José' 'Florianópolis' 'Brusque' 'Itajaí' 'Caçador' 'Chapecó']]"
+100 0.5 8 1942.0 "[['Florianópolis' 'São Bento do Sul' 'Jaraguá do Sul' 'Brusque'
+  'Blumenau' 'Tubarão' 'Criciúma' 'Joinville' 'Balneário Camboriú'
+  'Itajaí' 'São José' 'Santa Catarina' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.5 54 2163.0 "[['Tubarão' 'Balneário Camboriú' 'São José' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Joinville' 'Blumenau' 'Brusque' 'Florianópolis'
+  'Itajaí' 'Criciúma' 'Lages' 'Chapecó' 'Caçador' 'Santa Catarina']]"
+100 0.5 70 1986.0 "[['Chapecó' 'Caçador' 'Blumenau' 'Balneário Camboriú' 'Brusque'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Florianópolis' 'Criciúma'
+  'Tubarão' 'Lages' 'Santa Catarina' 'Joinville' 'Itajaí' 'São José']]"
+100 0.5 60 1872.0 "[['Tubarão' 'Criciúma' 'Lages' 'Santa Catarina' 'Jaraguá do Sul'
+  'Joinville' 'Blumenau' 'Balneário Camboriú' 'São José' 'Florianópolis'
+  'São Bento do Sul' 'Brusque' 'Itajaí' 'Caçador' 'Chapecó']]"
+100 0.5 79 1887.0 "[['Chapecó' 'Caçador' 'Jaraguá do Sul' 'Joinville' 'São Bento do Sul'
+  'Blumenau' 'Tubarão' 'Criciúma' 'São José' 'Lages' 'Santa Catarina'
+  'Brusque' 'Itajaí' 'Balneário Camboriú' 'Florianópolis']]"
+100 0.5 46 1910.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Tubarão' 'Criciúma'
+  'São Bento do Sul' 'Florianópolis' 'São José' 'Balneário Camboriú'
+  'Jaraguá do Sul' 'Brusque' 'Joinville' 'Blumenau' 'Itajaí']]"
+100 0.5 26 1936.0 "[['Joinville' 'Itajaí' 'Balneário Camboriú' 'São Bento do Sul' 'Blumenau'
+  'Brusque' 'Jaraguá do Sul' 'São José' 'Florianópolis' 'Chapecó'
+  'Caçador' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão']]"
+100 0.5 68 1845.0 "[['Balneário Camboriú' 'Florianópolis' 'São José' 'Santa Catarina'
+  'Lages' 'Itajaí' 'Tubarão' 'Criciúma' 'Brusque' 'Blumenau'
+  'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.5 67 1657.0 "[['Caçador' 'Chapecó' 'Lages' 'Santa Catarina' 'Tubarão' 'Criciúma'
+  'Florianópolis' 'Brusque' 'São José' 'Balneário Camboriú' 'Itajaí'
+  'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Blumenau']]"
+100 0.7 91 1911.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Lages' 'Joinville' 'São José'
+  'Criciúma' 'Tubarão' 'Blumenau' 'Itajaí' 'Jaraguá do Sul'
+  'São Bento do Sul' 'Balneário Camboriú' 'Brusque' 'Florianópolis']]"
+100 0.7 96 1941.0 "[['Criciúma' 'Tubarão' 'Florianópolis' 'São José' 'Blumenau' 'Lages'
+  'Santa Catarina' 'Caçador' 'Chapecó' 'Jaraguá do Sul'
+  'Balneário Camboriú' 'Itajaí' 'Joinville' 'Brusque' 'São Bento do Sul']]"
+100 0.7 90 1825.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'São Bento do Sul'
+  'Florianópolis' 'Balneário Camboriú' 'Criciúma' 'Tubarão' 'São José'
+  'Brusque' 'Itajaí' 'Joinville' 'Jaraguá do Sul' 'Blumenau']]"
+100 0.7 75 1709.0 "[['Itajaí' 'Florianópolis' 'São José' 'Balneário Camboriú' 'Blumenau'
+  'Jaraguá do Sul' 'Brusque' 'Joinville' 'São Bento do Sul' 'Criciúma'
+  'Tubarão' 'Lages' 'Santa Catarina' 'Caçador' 'Chapecó']]"
+100 0.7 40 2116.0 "[['Jaraguá do Sul' 'Brusque' 'Itajaí' 'Florianópolis' 'São José'
+  'Balneário Camboriú' 'Joinville' 'Caçador' 'Chapecó' 'Lages'
+  'Santa Catarina' 'Tubarão' 'Criciúma' 'São Bento do Sul' 'Blumenau']]"
+100 0.7 7 1850.0 "[['Chapecó' 'Caçador' 'Tubarão' 'Criciúma' 'Florianópolis' 'São José'
+  'Lages' 'Santa Catarina' 'Itajaí' 'Blumenau' 'Balneário Camboriú'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Joinville' 'Brusque']]"
+100 0.7 86 2066.0 "[['Florianópolis' 'São José' 'Jaraguá do Sul' 'Balneário Camboriú'
+  'Blumenau' 'São Bento do Sul' 'Joinville' 'Itajaí' 'Brusque' 'Tubarão'
+  'Santa Catarina' 'Caçador' 'Chapecó' 'Lages' 'Criciúma']]"
+100 0.7 75 1924.0 "[['Chapecó' 'Caçador' 'Jaraguá do Sul' 'Brusque' 'Itajaí' 'São José'
+  'Florianópolis' 'Tubarão' 'Balneário Camboriú' 'Joinville' 'Blumenau'
+  'São Bento do Sul' 'Lages' 'Santa Catarina' 'Criciúma']]"
+100 0.7 92 2023.0 "[['São José' 'Criciúma' 'Santa Catarina' 'Lages' 'Jaraguá do Sul'
+  'São Bento do Sul' 'Blumenau' 'Florianópolis' 'Tubarão'
+  'Balneário Camboriú' 'Brusque' 'Itajaí' 'Joinville' 'Caçador' 'Chapecó']]"
+100 0.7 43 1926.0 "[['Chapecó' 'Lages' 'Santa Catarina' 'Jaraguá do Sul' 'Joinville'
+  'São Bento do Sul' 'Blumenau' 'São José' 'Brusque' 'Florianópolis'
+  'Balneário Camboriú' 'Itajaí' 'Tubarão' 'Criciúma' 'Caçador']]"
+0.3 42 1950.0
+0.5 53 1924.9
+0.7 4 192.6
+100 0.3 99 1912.0 "[['Caçador' 'Lages' 'Santa Catarina' 'Balneário Camboriú' 'Brusque'
+  'Blumenau' 'Jaraguá do Sul' 'Joinville' 'Itajaí' 'Tubarão' 'Criciúma'
+  'São José' 'Florianópolis' 'São Bento do Sul' 'Chapecó']]"
+100 0.3 45 2050.0 "[['Joinville' 'Lages' 'Criciúma' 'Tubarão' 'Florianópolis' 'São José'
+  'Santa Catarina' 'Caçador' 'Chapecó' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Balneário Camboriú' 'Itajaí' 'Blumenau' 'Brusque']]"
+100 0.3 92 2035.0 "[['Tubarão' 'Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'São José'
+  'Florianópolis' 'Brusque' 'Blumenau' 'Balneário Camboriú' 'Itajaí'
+  'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Criciúma']]"
+100 0.3 40 2142.0 "[['Caçador' 'Chapecó' 'Lages' 'Blumenau' 'São José' 'Florianópolis'
+  'Brusque' 'Balneário Camboriú' 'Joinville' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Itajaí']]"
+100 0.3 7 1779.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'São José' 'Jaraguá do Sul'
+  'Blumenau' 'Brusque' 'Balneário Camboriú' 'Joinville'
+  'São Bento do Sul' 'Itajaí' 'Florianópolis' 'Tubarão' 'Criciúma'
+  'Lages']]"
+100 0.3 41 2051.0 "[['Balneário Camboriú' 'São José' 'Brusque' 'Florianópolis' 'Itajaí'
+  'Blumenau' 'Santa Catarina' 'Lages' 'Criciúma' 'Tubarão' 'Joinville'
+  'São Bento do Sul' 'Jaraguá do Sul' 'Chapecó' 'Caçador']]"
+100 0.3 40 1770.0 "[['Joinville' 'Brusque' 'Blumenau' 'Florianópolis' 'Balneário Camboriú'
+  'Itajaí' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão' 'São José'
+  'Jaraguá do Sul' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.3 6 2082.0 "[['Chapecó' 'Caçador' 'Lages' 'Jaraguá do Sul' 'Itajaí' 'Florianópolis'
+  'São José' 'Tubarão' 'Santa Catarina' 'Criciúma' 'Brusque'
+  'Balneário Camboriú' 'São Bento do Sul' 'Joinville' 'Blumenau']]"
+100 0.3 94 1914.0 "[['Chapecó' 'Caçador' 'Itajaí' 'Balneário Camboriú' 'Florianópolis'
+  'Tubarão' 'Criciúma' 'São José' 'Santa Catarina' 'Lages' 'Joinville'
+  'Blumenau' 'Brusque' 'Jaraguá do Sul' 'São Bento do Sul']]"
+100 0.3 16 1892.0 "[['Chapecó' 'Santa Catarina' 'Caçador' 'Lages' 'São José' 'Criciúma'
+  'Tubarão' 'Blumenau' 'Jaraguá do Sul' 'São Bento do Sul' 'Joinville'
+  'Brusque' 'Balneário Camboriú' 'Itajaí' 'Florianópolis']]"
+100 0.5 99 1981.0 "[['Lages' 'Santa Catarina' 'Tubarão' 'Criciúma' 'Florianópolis' 'Brusque'
+  'Itajaí' 'São José' 'Balneário Camboriú' 'Blumenau' 'Joinville'
+  'São Bento do Sul' 'Caçador' 'Chapecó' 'Jaraguá do Sul']]"
+100 0.5 49 1946.0 "[['Chapecó' 'Caçador' 'Joinville' 'Brusque' 'Blumenau' 'Santa Catarina'
+  'Lages' 'Balneário Camboriú' 'Itajaí' 'Florianópolis' 'Tubarão'
+  'Criciúma' 'São José' 'Jaraguá do Sul' 'São Bento do Sul']]"
+100 0.5 38 2022.0 "[['Chapecó' 'Caçador' 'Santa Catarina' 'Florianópolis' 'Jaraguá do Sul'
+  'Joinville' 'Itajaí' 'Balneário Camboriú' 'Brusque' 'São Bento do Sul'
+  'São José' 'Blumenau' 'Lages' 'Criciúma' 'Tubarão']]"
+100 0.5 98 1928.0 "[['Chapecó' 'Caçador' 'Lages' 'Criciúma' 'São José' 'Florianópolis'
+  'Balneário Camboriú' 'Itajaí' 'Brusque' 'Tubarão' 'Jaraguá do Sul'
+  'Joinville' 'São Bento do Sul' 'Blumenau' 'Santa Catarina']]"
+100 0.5 48 1945.0 "[['Florianópolis' 'São José' 'Lages' 'Santa Catarina' 'Chapecó' 'Caçador'
+  'Joinville' 'Jaraguá do Sul' 'Brusque' 'Blumenau' 'Itajaí'
+  'Balneário Camboriú' 'São Bento do Sul' 'Tubarão' 'Criciúma']]"
+100 0.5 49 1843.0 "[['Chapecó' 'Santa Catarina' 'Lages' 'Caçador' 'Joinville'
+  'Jaraguá do Sul' 'Balneário Camboriú' 'Itajaí' 'Brusque' 'São José'
+  'Florianópolis' 'São Bento do Sul' 'Blumenau' 'Tubarão' 'Criciúma']]"
+100 0.5 74 1948.0 "[['São José' 'Itajaí' 'Brusque' 'Joinville' 'São Bento do Sul'
+  'Jaraguá do Sul' 'Balneário Camboriú' 'Blumenau' 'Caçador' 'Chapecó'
+  'Santa Catarina' 'Lages' 'Tubarão' 'Florianópolis' 'Criciúma']]"
+100 0.5 47 1885.0 "[['Chapecó' 'Santa Catarina' 'Lages' 'Caçador' 'Joinville'
+  'São Bento do Sul' 'Jaraguá do Sul' 'Blumenau' 'Balneário Camboriú'
+  'Brusque' 'Tubarão' 'Florianópolis' 'São José' 'Itajaí' 'Criciúma']]"
+100 0.5 70 2001.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Florianópolis' 'Tubarão'
+  'Criciúma' 'Joinville' 'Balneário Camboriú' 'São Bento do Sul'
+  'Brusque' 'São José' 'Blumenau' 'Jaraguá do Sul' 'Itajaí']]"
+100 0.5 61 1964.0 "[['Santa Catarina' 'Tubarão' 'Criciúma' 'Chapecó' 'Caçador' 'Lages'
+  'São José' 'Florianópolis' 'Itajaí' 'Balneário Camboriú'
+  'Jaraguá do Sul' 'Joinville' 'São Bento do Sul' 'Brusque' 'Blumenau']]"
+100 0.7 95 1970.0 "[['Santa Catarina' 'Jaraguá do Sul' 'Brusque' 'Joinville'
+  'São Bento do Sul' 'Florianópolis' 'São José' 'Tubarão' 'Criciúma'
+  'Itajaí' 'Balneário Camboriú' 'Blumenau' 'Lages' 'Caçador' 'Chapecó']]"
+100 0.7 45 1916.0 "[['Chapecó' 'Caçador' 'Lages' 'Santa Catarina' 'Brusque' 'Itajaí'
+  'Joinville' 'São José' 'Blumenau' 'Balneário Camboriú' 'Florianópolis'
+  'São Bento do Sul' 'Jaraguá do Sul' 'Tubarão' 'Criciúma']]"
+100 0.7 59 2074.0 "[['Santa Catarina' 'Tubarão' 'Criciúma' 'Brusque' 'Itajaí' 'Joinville'
+  'Lages' 'Chapecó' 'Caçador' 'São Bento do Sul' 'Jaraguá do Sul'
+  'Blumenau' 'Balneário Camboriú' 'Florianópolis' 'São José']]"
+100 0.7 10 1966.0 "[['Caçador' 'Chapecó' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão'
+  'Itajaí' 'São Bento do Sul' 'Balneário Camboriú' 'Florianópolis'
+  'Brusque' 'São José' 'Jaraguá do Sul' 'Blumenau' 'Joinville']]"
+100 0.7 94 1969.0 "[['Santa Catarina' 'Blumenau' 'Itajaí' 'São José' 'Florianópolis'
+  'Balneário Camboriú' 'Joinville' 'Jaraguá do Sul' 'Brusque'
+  'São Bento do Sul' 'Chapecó' 'Caçador' 'Lages' 'Criciúma' 'Tubarão']]"
+100 0.7 12 1856.0 "[['São Bento do Sul' 'Caçador' 'Joinville' 'Jaraguá do Sul'
+  'Florianópolis' 'São José' 'Itajaí' 'Brusque' 'Blumenau'
+  'Balneário Camboriú' 'Tubarão' 'Criciúma' 'Santa Catarina' 'Lages'
+  'Chapecó']]"
+100 0.7 82 2083.0 "[['Chapecó' 'Caçador' 'Criciúma' 'Santa Catarina' 'Lages' 'Florianópolis'
+  'São José' 'Balneário Camboriú' 'Jaraguá do Sul' 'São Bento do Sul'
+  'Brusque' 'Itajaí' 'Tubarão' 'Joinville' 'Blumenau']]"
+100 0.7 6 2083.0 "[['São José' 'Blumenau' 'Jaraguá do Sul' 'Joinville' 'Balneário Camboriú'
+  'Tubarão' 'Brusque' 'Itajaí' 'Florianópolis' 'Criciúma'
+  'Santa Catarina' 'Lages' 'São Bento do Sul' 'Caçador' 'Chapecó']]"
+100 0.7 24 1996.0 "[['Caçador' 'São Bento do Sul' 'Joinville' 'Balneário Camboriú'
+  'São José' 'Itajaí' 'Florianópolis' 'Brusque' 'Jaraguá do Sul'
+  'Blumenau' 'Lages' 'Santa Catarina' 'Criciúma' 'Tubarão' 'Chapecó']]"
+100 0.7 21 1857.0 "[['Chapecó' 'Caçador' 'São Bento do Sul' 'Brusque' 'Blumenau'
+  'Jaraguá do Sul' 'Joinville' 'Itajaí' 'São José' 'Balneário Camboriú'
+  'Criciúma' 'Santa Catarina' 'Lages' 'Tubarão' 'Florianópolis']]"
+0.3 48 1962.7
+0.5 63 1946.3
+0.7 44 1977.0

@@ -1,18 +1,37 @@
 import numpy as np
-import random
-
+import csv
 from datetime import datetime
-
-num_cidades = 3
-taxa_mutacao = 0.3
 
 list_nome = np.array(["Joinville","Florianópolis","Blumenau","São José","Lages","Criciúma","Chapecó","Itajaí","Jaraguá do Sul","Brusque","Tubarão","Balneário Camboriú","Santa Catarina","São Bento do Sul","Caçador"])
 
+valor_maximo = 10000
+
 dict_nome = {n:v for n,v in zip(list_nome, [i for i in range(len(list_nome))])}
 
+
+"""
 distancia_cidades = np.array([
                              [0,177,98,173,307,357,513,89,50,115,298,98,311,77,328],
                              [176, 0,140,10,223,195,550,92,188,100,136,81,227,240,401],
+                             [94,142, 0,139,224,322,478,53,65,40,263,63,228,120,307],
+                             [173,10,136,0,214,187,540,88,184,96,128,78,218,236,391],
+                             [304,224,223,214,0,200,331,271,260,262,213,281,4,307,185],
+                             [357,197,321,187,200, 0,529,272,368,280,61,262,203,420,380],
+                             [513,551,477,541,330,529,0,585,487,585,542,594,332,443,220],
+                             [89,96,53,92,272,276,585, 0,100,34,217,12,276,152,400],
+                             [45,186,65,183,257,366,488,99,0,98,307,108,261,55,302],
+                             [116,102,40,98,261,282,585,36,97,0,223,43,265,152,344],
+                             [296,136,260,126,213,61,542,211,308,220,0,201,217,360,393],
+                             [99,82,63,79,290,262,595,11,110,43,203,0,294,162,409],
+                             [307,228,227,218,4,204,332,275,264,265,217,285,0,310,188],
+                             [80,240,119,236,304,420,441,152,55,152,361,161,308,0,255],
+                             [328,402,307,392,185,380,220,400,302,345,393,409,188,258,0]
+                             ])
+"""
+
+distancia_cidades = np.array([
+                             [0,valor_maximo,98,173,307,357,513,89,50,115,298,98,311,77,328],
+                             [valor_maximo, 0,140,10,223,195,550,92,188,100,136,81,227,240,401],
                              [94,142, 0,139,224,322,478,53,65,40,263,63,228,120,307],
                              [173,10,136,0,214,187,540,88,184,96,128,78,218,236,391],
                              [304,224,223,214,0,200,331,271,260,262,213,281,4,307,185],
@@ -40,7 +59,8 @@ class Cidades:
         self.taxa_mutacao = taxa_mutacao
 
         self.populacao_set = self.primeira_populacao()
-        self.list_fitness = self.get_todas_fitness()
+
+        self.list_fitness = self.get_todas_fitness(self.populacao_set)
         self.list_progenitores = self.selecao_progenitores()
         self.nova_populacao_set = self.gera_populacao()
         self.populacao_mutada = self.mutacao_populacao()
@@ -59,6 +79,7 @@ class Cidades:
         # Gera as primeiras soluções
         for _ in range(self.num_populacao):
             sol_i = self.nome_cidades[np.random.choice(list(range(self.num_cidades)), self.num_cidades, replace=False)]
+
             populaca_set.append(sol_i)
 
         return np.array(populaca_set)
@@ -72,13 +93,14 @@ class Cidades:
 
         return total
 
-    def get_todas_fitness(self) -> list:
+    def get_todas_fitness(self, populacao_set) -> list:
         list_fitness = np.zeros(self.num_populacao)
 
         for i in range(self.num_populacao):
-            list_fitness[i] = self.valor_fitness(self.populacao_set[i])
+            list_fitness[i] = self.valor_fitness(populacao_set[i])
 
         return list_fitness
+    
     
     def selecao_progenitores(self) -> list:
         total_fit = self.list_fitness.sum()
@@ -128,15 +150,27 @@ class Cidades:
 
         return populacao_mutada
     
-    def algoritmo_genetico(self, num_interacao:int) -> None:
-        melhor_solucao = [-1, np.inf, np.array([])]
+    def escreve_resultado_arquivo(self, arquivo: str, melhor_solucao: list) -> None:
+        with open(arquivo, 'a', newline='') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=' ', quoting=csv.QUOTE_MINIMAL)
+
+            spamwriter.writerow(self.melhor_solucao)
+          
+
+    def algoritmo_genetico(self, num_interacao:int) -> tuple:
+        melhor_solucao = [self.num_populacao, self.taxa_mutacao, -1, np.inf, np.array([])]
 
         for i in range(num_interacao):
+            if i % 100 == 0:
+                print(i, self.list_fitness.min(), self.list_fitness.mean(),  datetime.now().strftime("%d/%m/%y %H:%M"))
 
-            if self.list_fitness.min() < melhor_solucao[1]:
-                melhor_solucao[0] = i
-                melhor_solucao[1] = self.list_fitness.min()
-                melhor_solucao[2] = np.array(self.populacao_mutada)[self.list_fitness.min() == self.list_fitness]
+            self.list_fitness = self.get_todas_fitness(self.populacao_mutada)
+
+            if self.list_fitness.min() < melhor_solucao[3]:
+                melhor_solucao[2] = i
+                melhor_solucao[3] = self.list_fitness.min()
+                melhor_solucao[4] = np.array(self.populacao_mutada)[self.list_fitness.min() == self.list_fitness]
+
 
             self.list_progenitores = self.selecao_progenitores()
             self.nova_populacao_set = self.gera_populacao()
@@ -144,8 +178,56 @@ class Cidades:
             self.populacao_mutada = self.mutacao_populacao()
 
             self.melhor_solucao = melhor_solucao
+        
+        self.escreve_resultado_arquivo("resultados.csv", melhor_solucao)
+        return (melhor_solucao[2], melhor_solucao[3])
+
 
 if __name__ == '__main__':
-    cidades = Cidades(list_nome, distancia_cidades, 100, 0.3)
-    cidades.algoritmo_genetico(10000)
-    print(cidades.melhor_solucao)
+    arquivo = "resultados.csv"
+
+    resultado_aux: float = 0
+    interacao_aux: int = 0
+
+    resultado_03: float = 0
+    interacao_03: int = 0
+
+    resultado_05: float = 0
+    interacao_05: int =0
+
+    resultado_07: float = 0
+    interacao_07: int = 0
+
+    teste1 = Cidades(list_nome, distancia_cidades, 100, 0.3)
+    for i in range(10):
+        interacao_aux, resultado_aux = teste1.algoritmo_genetico(100)
+        interacao_03 += interacao_aux
+        resultado_03 += resultado_aux
+        print(teste1.melhor_solucao)
+
+    resultado_aux = 0.0
+    interacao_aux = 0
+
+    teste2 = Cidades(list_nome, distancia_cidades, 100, 0.5)
+    for i in range(10):
+        interacao_aux, resultado_aux = teste2.algoritmo_genetico(100)
+        interacao_05 += interacao_aux
+        resultado_05 += resultado_aux
+        print(teste2.melhor_solucao)
+
+    resultado_aux = 0.0
+    interacao_aux = 0
+
+    teste3 = Cidades(list_nome, distancia_cidades, 100, 0.7)
+    for i in range(10):
+        interacao_aux, resultado_aux = teste3.algoritmo_genetico(100)
+        interacao_07 += interacao_aux
+        resultado_07 += resultado_aux
+        print(teste3.melhor_solucao)
+
+    with open(arquivo, 'a', newline='') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=' ', quoting=csv.QUOTE_MINIMAL)
+
+        spamwriter.writerow([0.3, interacao_03//10, resultado_03/10])
+        spamwriter.writerow([0.5, interacao_05//10, resultado_05/10])
+        spamwriter.writerow([0.7, interacao_07//10, resultado_07/10])
